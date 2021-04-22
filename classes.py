@@ -14,7 +14,7 @@ class Category:
         return "This is the current balance: {}".format(self.amount)
 
     def check_balance(self, amount):
-        #this should return a boolean, it checks if amount is less or greater than self.amount
+        #this should return a True or False, it checks if amount is less or greater than self.amount
         pass
 
     def withdraw(self, amount):
